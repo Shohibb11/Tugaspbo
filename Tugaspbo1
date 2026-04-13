@@ -1,0 +1,31 @@
+cd C:\ProjectJava\tugaspbo1; "JAVA_HOME=C:\\Program Files\\Apache NetBeans\\jdk" cmd /c "\"C:\\Program Files\\Apache NetBeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" -Dexec.appArgs= -Dexec.mainClass=com.mycompany.tugaspbo1.Tugaspbo1 \"-Dexec.executable=C:\\Program Files\\Apache NetBeans\\jdk\\bin\\java.exe\" \"-Dmaven.ext.class.path=C:\\Program Files\\Apache NetBeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.5.1:exec"
+Scanning for projects...
+
+----------------------< com.mycompany:tugaspbo1 >-----------------------
+Building tugaspbo1 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.3.1:resources (default-resources) @ tugaspbo1 ---
+skip non existing resourceDirectory C:\ProjectJava\tugaspbo1\src\main\resources
+
+--- compiler:3.13.0:compile (default-compile) @ tugaspbo1 ---
+Recompiling the module because of changed source code.
+Compiling 3 source files with javac [debug release 25] to target\classes
+
+--- exec:3.5.1:exec (default-cli) @ tugaspbo1 ---
+=== DATA MAHASISWA ===
+NPM      : 2410020054
+Nama     : Shahibul Ihsan
+IPK      : 3.72
+Semester : 4
+
+=== DATA MATA KULIAH ===
+Kode MK : SI101
+Nama MK : Pemrograman Berbasis Objek
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  2.252 s
+Finished at: 2026-04-13T00:30:37+08:00
+------------------------------------------------------------------------
